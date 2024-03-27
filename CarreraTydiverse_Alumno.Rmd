@@ -159,6 +159,7 @@ cran[, c("ip_id", "package", "country")]
 5.  Elige todas las variables entre `r_arch y country`
 
 ```{r}
+select(cran, r_arch:country)
 
 ```
 
