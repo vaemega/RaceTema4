@@ -260,6 +260,8 @@ cran3 <- select(cran, ip_id, package, size)
     tamaño de la descarga expresado en Mbytes ($1Mbyte=2^{20}$ bytes).
 
 ```{r}
+cran3 %>% mutate (size_mb = size/2^20)
+
 
 
 ```
