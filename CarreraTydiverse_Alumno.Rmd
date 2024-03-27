@@ -201,6 +201,7 @@ subset(cran, country == "ES" | country == "PT")
     un sistema operativo `linux-gnu`.
 
 ```{r}
+subset(cran, size > 100500 & r_os == "linux-gnu")
 
 ```
 
