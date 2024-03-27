@@ -168,7 +168,7 @@ select(cran, r_arch:country)
     `date y size`
 
 ```{r}
-
+select(cran, -(date:size))
 
 
 
