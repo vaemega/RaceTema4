@@ -281,7 +281,8 @@ mutate(cran3, size_gb = (size / 2^20) / 2^10)
     valor correcto.
 
 ```{r}
-
+cran3 <- mutate(cran3, correct_size = size +1000)
+cran3
 ```
 
 18. Usa `summarise` para determinar el valor medio del tamaño de las
