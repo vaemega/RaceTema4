@@ -185,7 +185,7 @@ subset(cran, package == "plotly" & r_version == "3.5.1")
     de R superiores a la 3.4.0
 
 ```{r}
-
+subset(cran, country == "ES" & r_version > "3.4.0")
 ```
 
 7.  Elige aquellas descargas realizadas desde España (ES), o Portugal
