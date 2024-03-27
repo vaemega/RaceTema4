@@ -216,6 +216,8 @@ subset(cran, r_os != "NA")
 10. Almacena en `cran2` todas las columnas entre `size` y `ip_id`.
 
 ```{r}
+cran2 <- select(cran, size:ip_id)
+cran2
 
 ```
 
