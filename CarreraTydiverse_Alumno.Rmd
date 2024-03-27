@@ -209,6 +209,7 @@ subset(cran, size > 100500 & r_os == "linux-gnu")
     no está vacía.
 
 ```{r}
+subset(cran, r_os != "NA")
 
 ```
 
