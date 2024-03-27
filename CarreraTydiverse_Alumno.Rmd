@@ -290,6 +290,8 @@ cran3
     `avg_bytes`
 
 ```{r}
+avg_bytes<-cran %>% summarise(avg_bytes=mean(size))
+avg_bytes
 
 ```
 
