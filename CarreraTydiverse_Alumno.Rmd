@@ -313,6 +313,7 @@ by_package <- group_by(cran, package)
     agrupamiento en el resultado.
 
 ```{r}
+by_package %>% summarise(mean(size))
 
 ```
 
