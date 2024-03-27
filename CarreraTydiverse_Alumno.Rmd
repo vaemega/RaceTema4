@@ -331,8 +331,8 @@ de la variable `size` y almacénalos en las variables
 sumario se almacenará en `pack_sum`.
 
 ```{r}
-
-
+pack_sum <- by_package %>% summarise(count = n(), unique = n_distinct(ip_id),
+                         countries = n_distinct(country), med_bytes = median(size))
 
 
 
