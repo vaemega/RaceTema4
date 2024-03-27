@@ -271,6 +271,7 @@ cran3 %>% mutate (size_mb = size/2^20)
     expresado en Gbytes.
 
 ```{r}
+mutate(cran3, size_gb = (size / 2^20) / 2^10)
 
 ```
 
