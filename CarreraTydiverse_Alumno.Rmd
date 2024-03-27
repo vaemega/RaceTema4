@@ -251,6 +251,7 @@ cran2[order(cran2$country, cran2$r_version, cran2$ip_id), decreasing = c(F, T, F
     `ip_id, package y size` en este orden y almacénalas en `cran3`.
 
 ```{r}
+cran3 <- select(cran, ip_id, package, size)
 
 
 ```
