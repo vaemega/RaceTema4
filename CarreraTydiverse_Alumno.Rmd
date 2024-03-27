@@ -178,7 +178,7 @@ select(cran, r_arch:country)
     `plotly`, desde un sistema que ejecuta la versión de R 3.5.1
 
 ```{r}
-
+subset(cran, package == "plotly" & r_version == "3.5.1")
 ```
 
 6.  Elige aquellas descargas realizadas desde España (ES), con versiones
