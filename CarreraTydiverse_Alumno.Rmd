@@ -244,6 +244,7 @@ cran2[order(cran2$package, cran2$ip_id),]
     `r_version` (desdencente) e `ip_id`(ascendente).
 
 ```{r}
+cran2[order(cran2$country, cran2$r_version, cran2$ip_id), decreasing = c(F, T, F), ]
 ```
 
 14. Selecciona el subconjunto formado por las variables, del `cran`,
