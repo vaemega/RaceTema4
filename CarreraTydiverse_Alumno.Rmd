@@ -305,7 +305,7 @@ avg_bytes
 
 ```{r}
 
-
+by_package <- group_by(cran, package)
 ```
 
 20. Usa la función `summarise` sobre el elemento agrupado y calcula el
