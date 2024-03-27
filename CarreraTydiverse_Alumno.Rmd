@@ -368,7 +368,10 @@ pack_sum <- by_package %>% summarise(count = n(), unique = n_distinct(ip_id),
     elemento `cran`, usando *pipes***.
 
 ```{r}
+top_counts <- pack_sum %>%count(package)%>%
+  filter(n > quantile(n, probs = 0.99))
 
+top_counts
 
 
 
