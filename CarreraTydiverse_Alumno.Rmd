@@ -127,7 +127,11 @@ mydf %>% dim
     data frame original (usa `rm`)
 
 ```{r}
-
+cran <- as_tibble(mydf) 
+cran
+rm(mydf)
+cran
+glimpse(cran)
 
 ```
 
