@@ -193,7 +193,7 @@ subset(cran, country == "ES" & r_version > "3.4.0")
 
 ```{r}
 
-
+subset(cran, country == "ES" | country == "PT")
 
 ```
 
