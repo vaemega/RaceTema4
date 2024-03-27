@@ -130,8 +130,6 @@ mydf %>% dim
 cran <- as_tibble(mydf) 
 cran
 rm(mydf)
-cran
-glimpse(cran)
 
 ```
 
@@ -141,6 +139,8 @@ glimpse(cran)
     resultado.
 
 ```{r}
+cran
+glimpse(cran)
 
 
 ```
